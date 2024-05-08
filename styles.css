@@ -1,0 +1,149 @@
+#menuicon {
+    position: absolute;
+    top: 0px;
+    right: -973px;
+}
+.logo {
+    position: relative;
+    top: -1px;
+    z-index: -2;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 90px;
+    top: -87px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #fcfcfc;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: absolute;
+  top: 15px;
+  right: 120px;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: 1px solid gray;
+  height: 35px;
+  width: 300px;
+}
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+#login {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    position: absolute;
+    top: 19px;
+    right: 9px;
+}
+.menuvid {
+    width: 100%;
+    position: absolute;
+    top: 85px;
+}
+body {
+    margin: 0;
+}
+.menubackground {
+    position: absolute;
+    z-index: -2;
+    top: 94px;
+}
+#mainheading {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: relative;
+    top: -60px
+}
+
+.post1 {
+    background-color: white;
+    background-image: url('post1.jpg');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2%;
+    top: 700px;
+    border-radius: 20px;
+    width: 31%;
+    height: 400px;
+    z-index: -2;
+    padding: 5px;
+    font-size: 18px;
+}
+.post2 {
+    background-color: white;
+    background-image: url('post2.jpg');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35%;
+    top: 700px;
+    border-radius: 20px;
+    width: 31%;
+    height: 400px;
+    padding: 5px;
+    font-size: 18px;
+}
+.post3 {
+    background-color: white;
+    background-image: url('post3.jpg'); 
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 2%;
+    top: 700px;
+    border-radius: 20px;
+    width: 30%;
+    height: 400px;
+    padding: 5px;
+    font-size: 18px;
+}
