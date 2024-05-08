@@ -12,7 +12,7 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 16px;
-    font-size: 24px;
+    font-size: 16px;
     border: none;
 }
 .dropdown {
@@ -193,13 +193,13 @@
     background-color: var(--dl-color-theme-primary2);
   }
   .thq-heading-1 {
-    font-size: 48px;
+    : 48px;
     font-family: STIX Two Text;
     font-weight: 700;
     line-height: 1.5;
   }
   .thq-heading-2 {
-    font-size: 35px;
+    : 35px;
     font-family: STIX Two Text;
     font-weight: 600;
     line-height: 1.5;
@@ -489,7 +489,7 @@
     border-radius: 10px;
     color: rgb(0, 0, 0);
     padding: 16px;
-    font-size: 24px;
+    font-size: 18px;
     border: none;
     position: absolute;
     top: 16px;
