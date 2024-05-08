@@ -5,7 +5,7 @@
 }
 .logo {
     position: relative;
-    top: -1px;
+    top: -2px;
     z-index: -2;
 }
 .dropbtn {
@@ -80,7 +80,7 @@
     font-size: 24px;
     border: none;
     position: absolute;
-    top: 19px;
+    top: 16px;
     right: 9px;
 }
 .menuvid {
@@ -103,7 +103,7 @@ body {
     position: relative;
     top: -60px
 }
-
+/*
 .post1 {
     background-color: white;
     background-image: url('post1.jpg');
@@ -147,3 +147,4 @@ body {
     padding: 5px;
     font-size: 18px;
 }
+*/
