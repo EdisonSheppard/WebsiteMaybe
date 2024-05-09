@@ -328,3 +328,27 @@ body {
   bottom: 0px;
   line-height: 6px;
 }
+.smalltextatthebottom a {
+  text-decoration: none;
+  color: white;
+}
+.righthandfootercolumn a {
+  text-decoration: none;
+  color: white;
+}
+.middlefootercolumn a {
+  text-decoration: none;
+  color: white;
+}
+.lefthandfootercolumn a {
+  text-decoration: none;
+  color: white;
+}
+.farlefthandfootercolumn a {
+  text-decoration: none;
+  color: white;
+}
+.footerlinks {
+  position:relative;
+  left: 115px;
+}
