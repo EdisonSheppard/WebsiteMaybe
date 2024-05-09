@@ -9,7 +9,7 @@ html {
 }
 .logo {
     position: relative;
-    top: -2px;
+    margin-top:2px;
     z-index: -2;
 }
 .dropbtn {
@@ -23,7 +23,7 @@ html {
     position: relative;
     display: inline-block;
     left: 80px;
-    top: -75px;
+    top: -78px;
 }
 .dropdown-content {
     display: none;
@@ -39,13 +39,18 @@ html {
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .dropdown:hover .dropbtn {
     background-color: #fcfcfc;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -53,6 +58,7 @@ html {
   top: 6px;
   right: 100px;
 }
+
 .topnav input[type=text] {
   float: right;
   padding: 6px;
@@ -65,6 +71,7 @@ html {
   width: 300px;
   border-radius: 5px;
 }
+
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
     float: none;
@@ -78,6 +85,7 @@ html {
     border: 1px solid #ccc;
   }
 }
+
 #login {
     background-color: #e6e6e6;
     border-radius: 10px;
@@ -89,6 +97,7 @@ html {
     top: 8px;
     right: 24px;
 }
+
 .menuvid {
     width: 100%;
     position: absolute;
@@ -97,17 +106,19 @@ html {
 body {
     margin: 0;
 }
+
 .menubackground {
     position: absolute;
     z-index: -2;
     top: 70px;
 }
+
 #mainheading {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 30px;
     position: relative;
-    top: -60px
+    margin-top: 60px;
 }
 
 .post1 {
@@ -190,15 +201,17 @@ body {
   transition-duration: 1s;
   background-position: center;
   background-size: cover;
-  color: white;
+  color: black;
 
-}.post3:hover,
+}
+
+.post3:hover,
 .post3:focus {
   transform: scale(1.1);
   transition-duration: 1s;
   background-position: center;
   background-size: cover;
-  color: white;
+  color: black;
 }
 
 .mainimageaftertrendingpostimages {
@@ -214,6 +227,7 @@ body {
   border-radius: 20px;
   object-fit: fill;
 }
+
 .mainimageaftertrendingpostimages h1 {
   color: white;
   position: absolute;
@@ -221,6 +235,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 35px;
 }
+
 .mainimageaftertrendingpostimages p {
   color: white;
   position: absolute;
@@ -231,10 +246,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 33px;
 }
+
 .posts {
   position: relative;
-  top: -215px;
+  bottom: 268px;
+  order: 1;
 }
+
 #imagebutton {
   position: absolute;
   left: 30px;
@@ -245,6 +263,7 @@ body {
   background-color: white;
   border-color: white;
 }
+
 #getstarted {
   width: 110px;
   height: 50px;
@@ -252,6 +271,7 @@ body {
   border-width: 3px;
   border-radius: 15px;
 }
+
 #faq {
   width: 110px;
   height: 50px;
@@ -259,3 +279,14 @@ body {
   border-width: 3px;
   border-radius: 15px;
 }
+
+.footer {
+  background-color: gray;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  bottom: -150%;
+  left: 0;
+  right: 0;
+}
+
