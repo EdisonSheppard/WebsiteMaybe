@@ -288,5 +288,43 @@ body {
   bottom: -150%;
   left: 0;
   right: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
 
+.righthandfootercolumn {
+  text-align: left;
+  width: 25%;
+  position: absolute;
+  left: 300px;
+  top: 25px;
+}
+
+.middlefootercolumn {
+  text-align: left;
+  width: 25%;
+  position: absolute;
+  left: 600px;
+  top: 25px;
+}
+.lefthandfootercolumn {
+  text-align: left;
+  width: 25%;
+  position: absolute;
+  left: 900px;
+  top: 25px;
+}
+.farlefthandfootercolumn {
+  text-align: left;
+  width: 25%;
+  position: absolute;
+  left: 1200px;
+  top: 25px;
+}
+.smalltextatthebottom {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  line-height: 6px;
+}
