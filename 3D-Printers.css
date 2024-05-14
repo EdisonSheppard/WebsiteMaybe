@@ -100,15 +100,19 @@ html {
 .footer {
     background-color: gray;
     width: 110%;
-    height: 400px;
+    height: 520px;
     position: absolute;
-    bottom: -215%;
+    bottom: -485%;
     left: 0;
     right: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
   }
-  
+
+  .footer hr {
+    width: 100%;
+    height: 10px;
+  }
   .righthandfootercolumn {
     text-align: left;
     width: 25%;
@@ -169,17 +173,75 @@ html {
     position:relative;
     left: 115px;
   }
-
+#hr {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    height: 1px;
+}
 .mainparagraph {
 margin-left: 10%;
 margin-right: 40%;
 }
-.mainparagraph img {
-
-}
 .mainparagraph p {
-
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .mainparagraph h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pros {
+    width: 45%;
+    height: 600px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.pros h3 {
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.pros ul {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.cons {
+    width: 45%;
+    height: 600px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.cons h3 {
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.cons ul {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
 
+#crealityender {
+    position: relative;
+    top: 90px;
+}
+#prusamk4 {
+    position: relative;
+    top: 90px;
+}
+#anycubickobra {
+    position: relative;
+    top: 230px;
 }
