@@ -7,7 +7,7 @@
 	left: 2%;
 	top: 3%;
 	font-size: 5vw;
-	font-family: "Gill Sans", sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	color: rgb(50, 50, 50);
 }
 .navbar h2 {
@@ -43,7 +43,60 @@
 
 .dropdownmenu {
 	text-decoration: none;
+	float: right;
 }
 #background {
 	background-attachment: scroll;
+	height: auto;
 }
+.afterhomepage {
+	margin-left: 25%;
+	margin-right: 25%;
+	z-index: 5;
+	transform: translateY(3vw)
+}
+
+
+#welcometexthr {
+	margin-bottom: 1.5vw;
+}
+
+#welcometext {
+	font-family: Arial, sans-serif;
+	color: rgb(72, 112, 57);
+}
+
+#h1paragraph {
+	width: 33%;
+	font-family: DejaVu Sans Mono, monospace;
+	float: left;
+	margin-right: 4vw;
+}
+
+#paragraphthingy {
+	font-family: Optima, sans-serif;
+	font-size: 1vw;
+}
+
+.aftertheafterhomepagesquareright {
+	
+}
+
+
+
+
+
+.aftertheafterhomepage {
+	position: absolute;
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 15vw;
+
+#aftertheafterheading {
+	position: absolute;
+	transform: translateY(-0.5vw)
+}
+
+
