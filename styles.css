@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box; 
 }
+html {
+	background-color: antiquewhite;
+}
 .bigheading {
 	position: absolute;
 	left: 2%;
@@ -148,7 +151,7 @@
 
 #firstbackgroundcolor {
 	background-color: beige;
-	height: 18em;
+	height: 20vw;
 	transform: translateY(-5%);
 }
 
@@ -169,6 +172,14 @@
 
 .thirdbackgroundcolor {
 	background-color:darkcyan;
+	height: 50em;
+}
+.thirdbackgroundcolor img {
+	float: right;
+	padding-right: 2.5%;
+	transform: translateY(-31em);
+	object-fit: cover;
+	object-position: center;
 	height: 50em;
 }
 
@@ -196,4 +207,189 @@
 	font-family: Optima, sans-serif;
 	font-size: 1.25em;
 	color: lightgray;
+}
+
+#fourthbackgroundtexth1 {
+	padding-left: 5%;
+	padding-top: 23vw;
+	width: 33%;
+	font-family: DejaVu Sans Mono, monospace;
+	float: right;
+	position: absolute;
+	right: -4%;
+	transform: translateY(3em);
+	font-size: 5em;
+}
+
+.thirdbackgroundcolortext {
+	background-color:darkcyan;
+	height: 9em;
+}
+
+.fifthbackgroundcolor {
+	background-color:darkolivegreen;
+	height: 50em;
+	transform: translateY(14em);
+}
+.fifthbackgroundcolor img {
+	float: left;
+	padding-left: 2.5%;
+	transform: translateY(-5em);
+	object-fit: cover;
+	object-position: 50% 15%;
+	height: 52em;
+}
+
+#fifthbackgroundh1 {
+	font-family: DejaVu Sans Mono, monospace;
+	padding-left: 5%;
+	position: absolute;
+	right: 5%;
+	padding-top: 0.6em;
+	font-size: 5em;
+	color: white;
+}
+
+#fifthbackgroundtextp {
+	width: 45%;
+	padding-left: 5%;
+	padding-top: 10em;
+	font-family: Optima, sans-serif;
+	font-size: 1.25em;
+	color: lightgray;
+	position: absolute;
+	right: 5%;
+	text-align: right;
+}
+
+#sixbackgroundcolor {
+	background-color: white;
+	height: 9em;
+}
+
+.sixprinterheaderthingyy {
+	padding-left: 5%;
+	margin-top: 1em;
+	font-size: 2.5em;
+	font-family: DM Sans,sans-serif;
+	font-family: 100;
+	transform: translateY(6.3em);
+	margin-bottom: 6em;
+}
+
+.sevenbackgroundcolor {
+	background-color:darkcyan;
+	height: 50em;	
+	transform: translateY(17em);
+}
+.sevenbackgroundcolor img {
+	float: right;
+	position: absolute;
+	right: 2.5%;
+	transform: translateY(-31em);
+	object-fit: cover;
+	object-position: center;
+	height: 52em;
+}
+
+#sevenbackgroundtexth1 {
+	font-family: DejaVu Sans Mono, monospace;
+	padding-left: 5%;
+	padding-top: 0.6em;
+	font-size: 5em;
+	color: white;
+}
+
+#sevenbackgroundcolorparagraph {
+	width: 45%;
+	padding-left: 5%;
+	padding-top: 3em;
+	font-family: Optima, sans-serif;
+	font-size: 1.25em;
+	color: lightgray;
+}
+
+.sevenbackgroundcolortext {
+	background-color:darkcyan;
+	height: 9em;
+}
+
+.footer {
+	position: absolute;
+	bottom: -55vh;
+	width: 100%;
+	height: 45vh;
+	background-color: darkslategray;
+}
+
+
+
+#websitename {
+	margin-top: 5%;
+	margin-left: 17%;
+}
+
+#footerparagraph {
+	margin-top: 1%;
+	margin-left: 17%;
+}
+
+.onecolumn {
+	position: absolute;
+	left: 40%;
+	margin-top: -4.9%;
+}
+
+.twocolumn {
+	position: absolute;
+	left: 50%;
+	margin-top: -4.9%;
+}
+
+.fourcolumn {
+	position: absolute;
+	left: 70%;
+	margin-top: -4.9%;
+}
+
+.threecolumn {
+	position: absolute;
+	left: 60%;
+	margin-top: -4.9%;
+}
+
+.bottomrow {
+	margin-left: 17%;
+	margin-top: 6%;
+}
+
+
+
+.lowerrow {
+	margin-left: 17%;
+	margin-top: 3%;
+}
+.lowerrow a {
+	float: right;
+	margin-right: 5%;
+	position: relative;
+	right: 17%;
+}
+
+.emailinput {
+	margin-left: 33%;
+	border-radius: 3vh;
+	transform: translateY(-3vh);
+	width: 30%;
+	height: 6vh;
+	background-color: white;
+}
+
+
+
+#footerform {
+	border-width: 0;
+	background: transparent;
+	height: 6vh;
+	width: 100%;
 }
