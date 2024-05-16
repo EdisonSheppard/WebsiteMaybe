@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box; 
+}
 .bigheading {
 	position: absolute;
 	left: 2%;
@@ -41,7 +42,7 @@
 	color: rgb(50, 50, 50);
 }
 
-.dropdownmenu {
+.topmenu {
 	text-decoration: none;
 	float: right;
 }
@@ -53,7 +54,8 @@
 	margin-left: 25%;
 	margin-right: 25%;
 	z-index: 5;
-	transform: translateY(3vw)
+	transform: translateY(3vw);
+	margin-bottom: 30vh;
 }
 
 
@@ -70,20 +72,14 @@
 	width: 33%;
 	font-family: DejaVu Sans Mono, monospace;
 	float: left;
+	font-size: 2vw;
 	margin-right: 4vw;
 }
 
 #paragraphthingy {
 	font-family: Optima, sans-serif;
-	font-size: 1vw;
+	font-size: 1.25vw;
 }
-
-.aftertheafterhomepagesquareright {
-	
-}
-
-
-
 
 
 .aftertheafterhomepage {
@@ -93,10 +89,111 @@
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top: 15vw;
+}
 
 #aftertheafterheading {
 	position: absolute;
-	transform: translateY(-0.5vw)
+	transform: translateY(-0.5vw);
 }
 
 
+
+.afterhomepage1 {
+	margin-left: 25%;
+	margin-right: 25%;
+	z-index: 5;
+	transform: translateY(10vw);
+}
+
+.margins {
+	margin-left: 25vw;
+	margin-right: 25%;
+}
+
+.projectthingy {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#projectsheader {
+	text-align: left;
+	font-family: Arial, sans-serif;
+	color: rgb(72, 112, 57);
+	font-size: 1.25em;
+	margin-bottom: 0.5vh;
+}
+
+.imagecontainer {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 5vw);
+    grid-gap: 5%;
+}
+
+.imagecontainer img {
+	z-index: 2;
+}
+
+.imagecontainer p {
+	z-index: 3;
+	font-family: Optima, sans-serif;
+	font-size: 1.5vw;
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color: rgb(72, 112, 57);
+	color: rgb(72, 112, 57);
+}
+
+
+
+#firstbackgroundcolor {
+	background-color: beige;
+	height: 18em;
+	transform: translateY(-5%);
+}
+
+#secondbackgroundcolor {
+	background-color: white;
+	height: 9em;
+}
+
+
+
+.threedprinterheaderthingyy {
+	padding-left: 5%;
+	margin-top: 1em;
+	font-size: 2.5em;
+	font-family: DM Sans,sans-serif;
+	font-family: 100;
+}
+
+.thirdbackgroundcolor {
+	background-color:darkcyan;
+	height: 50em;
+}
+
+
+
+#thirdbackgroundtexth1 {
+	font-family: DejaVu Sans Mono, monospace;
+	padding-left: 5%;
+	padding-top: 0.6em;
+	font-size: 5em;
+	color: white;
+}
+#thirdbackgroundtexth1 h1 {
+	
+}
+
+#3dprinterheaderthingy {
+	
+}
+
+#thirdbackgroundcolorparagraph {
+	width: 45%;
+	padding-left: 5%;
+	padding-top: 3em;
+	font-family: Optima, sans-serif;
+	font-size: 1.25em;
+	color: lightgray;
+}
