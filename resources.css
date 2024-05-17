@@ -133,9 +133,9 @@ html {
 
 .imagecontainer {
 	display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 5vw);
-    grid-gap: 5%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 5vw);
+	grid-gap: 5%;
 }
 
 .imagecontainer img {
@@ -456,4 +456,22 @@ body {
 }
 .nav__item {
 	margin-left: 20%;
+}
+
+.container1 {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2.5%;
+}
+.container h1 {
+	
+}
+.container p {
+	font-family: Optima, sans-serif;
+}
+.container ol {
+	font-family: Optima, sans-serif;
+}
+.container ul {
+	font-family: Optima, sans-serif;
 }
