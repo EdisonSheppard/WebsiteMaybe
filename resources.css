@@ -208,9 +208,8 @@ html {
 
 #fourthbackgroundtexth1 {
 	padding-right: 5%;
-	width: 33%;
 	font-family: DejaVu Sans Mono, monospace;
-	float: right;
+	float: right; 
 	padding-bottom: 10em;
 	transform: translateY(10em);
 	right: -4%;
