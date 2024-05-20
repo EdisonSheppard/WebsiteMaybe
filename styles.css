@@ -4,8 +4,12 @@
 	box-sizing: border-box; 
 }
 html {
-	background-color: white;
 	overflow-x: hidden;
+	height: 100%;
+}
+
+html::-webkit-scrollbar {
+	display: none;
 }
 .bigheading {
 	position: absolute;
@@ -157,21 +161,21 @@ html {
 #firstbackgroundcolor {
 	background-color: beige;
 	height: 20vw;
-	transform: translateY(-5%);
 }
 
 #secondbackgroundcolor {
-	height: 9em;
+	height: 10.5em;
+	transform: translateY(-5%);
 }
 
 
 
 .threedprinterheaderthingyy {
-	padding-left: 5%;
-	margin-top: 1em;
+	margin-top: 2.5em;
 	font-size: 2.5em;
 	font-family: DM Sans,sans-serif;
 	font-family: 100;
+	margin-bottom: 7.5vw;
 }
 
 .thirdbackgroundcolor {
@@ -208,14 +212,10 @@ html {
 }
 
 #fourthbackgroundtexth1 {
-	padding-right: 5%;
-	padding-top: 23vw;
-	width: 33%;
+	margin-top: 0.85em;
+	padding-right: 2.5%;
 	font-family: DejaVu Sans Mono, monospace;
 	float: right;
-	/*position: absolute;*/
-	right: -4%;
-	margin-top: 4em;
 	font-size: 5.25em;
 }
 
@@ -227,67 +227,68 @@ html {
 .fifthbackgroundcolor {
 	background-color:darkolivegreen;
 	height: 50em;
-	transform: translateY(14em);
 }
 .fifthbackgroundcolor img {
 	float: left;
-	padding-left: 2.5%;
-	transform: translateY(-5em);
-	object-fit: cover;
+	padding: 2.5%;
+	/*transform: translateY(-34em);*/
+	position: relative;
+	top: 0;
 	object-position: 50% 15%;
-	height: 52em;
+	height: 100%;
+	width: auto;
 }
 
 #fifthbackgroundh1 {
 	font-family: DejaVu Sans Mono, monospace;
-	padding-left: 5%;
-	position: absolute;
-	right: 5%;
 	padding-top: 0.6em;
 	font-size: 5em;
 	color: white;
+	position: absolute;
+	right: 2.5%;
 }
 
 #fifthbackgroundtextp {
-	width: 45%;
-	padding-left: 5%;
-	padding-top: 10em;
+	width: 60%;
+	padding-top: 8em;
 	font-family: Optima, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.62em;
 	color: lightgray;
-	position: absolute;
-	right: 5%;
 	text-align: right;
+	float: right;
+	position: absolute;
+	right: 2.5%;
+	padding-left: 5%;
 }
 
 #sixbackgroundcolor {
 	background-color: white;
-	height: 9em;
+	height: 15em;
 }
 
-.sixprinterheaderthingyy {
-	padding-left: 5%;
-	margin-top: 1em;
+.sixprinterheaderthingy {
+	padding-left: 2.5%;
 	font-size: 2.5em;
 	font-family: DM Sans,sans-serif;
 	font-family: 100;
-	transform: translateY(6.3em);
+	margin-top: 0.5em;
 	margin-bottom: 6em;
 }
 
 .sevenbackgroundcolor {
 	background-color:darkcyan;
 	height: 50em;	
-	transform: translateY(17em);
 }
 .sevenbackgroundcolor img {
 	float: right;
-	position: absolute;
-	right: 2.5%;
-	transform: translateY(-33em);
-	object-fit: cover;
-	object-position: center;
-	height: 52em;
+	padding: 2.5%;
+	/*transform: translateY(-34em);*/
+	position: relative;
+	top: 0;
+	/*object-fit: cover;*/
+	object-position: 50% 15%;
+	height: 100%;
+	width: auto;
 }
 
 #sevenbackgroundtexth1 {
@@ -296,23 +297,22 @@ html {
 	padding-top: 0.6em;
 	font-size: 5em;
 	color: white;
+	max-width: fit-content;
 }
 
 #sevenbackgroundcolorparagraph {
-	width: 45%;
+	max-width: 100%;
 	padding-left: 5%;
 	padding-top: 3em;
 	font-family: Optima, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.62em;
 	color: lightgray;
+	padding-bottom: 3em;
 }
 
 .sevenbackgroundcolortext {
 	background-color:darkcyan;
 	height: 9em;
-}
-.sevenbackgroundcolortext img {
-	transform: translateY(-44em);
 }
 
 body {
@@ -324,137 +324,21 @@ body {
 	background-color: #f4f4f4;
 	align-items: start;
 	min-height: 100vh;
+	z-index: 0;
 }
 
-.footer {
-	display: flex;
-	flex-flow: row wrap;
-	padding: 30px 30px 20px 30px;
-	color: aliceblue;
-	background-color: darkslategray;
-	border-top: 1px solid #e5e5e5;
-	position: absolute;
-	bottom: -20vw;
-	width: 100%;
-	height: 20vw;
+.fourthbackgroundcolor {
+	height: 15em;
+	background-color: white;
+	transform: translateY(-5%);
 }
 
-.footer > * {
-	flex:  1 100%;
+#threeedprinterheaderthingy {
+	position: relative;
+	top: 50%;
+	margin-left: 2.5%;
 }
 
-.footer__addr {
-	margin-right: 1.25em;
-	margin-bottom: 2em;
-}
-
-.footer__logo {
-	font-family: 'Pacifico', cursive;
-	font-weight: 400;
-	font-size: 1.5rem;
-}
-
-.footer__addr h2 {
-	margin-top: 1.3em;
-	font-size: 15px;
-	font-weight: 400;
-}
-
-.nav__title {
-	font-weight: 400;
-	font-size: 15px;
-}
-
-.footer address {
-	font-style: normal;
-	color: #999;
-}
-
-.footer__btn {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 36px;
-	max-width: max-content;
-	background-color: rgb(33, 33, 33, 0.07);
-	border-radius: 100px;
-	color: gray;
-	line-height: 0;
-	margin: 0.6em 0;
-	font-size: 1rem;
-	padding: 0 1.3em;
-}
-
-.footer ul {
-	list-style: none;
-	padding-left: 0;
-}
-
-.footer li {
-	line-height: 2em;
-}
-
-.footer a {
-	text-decoration: none;
-}
-
-.footer__nav {
-	display: flex;
-	flex-flow: row wrap;
-}
-
-.footer__nav > * {
-	flex: 1 50%;
-	margin-right: 1.25em;
-}
-
-.nav__ul a {
-	color: #999;
-}
-
-.nav__ul--extra {
-	column-count: 2;
-	column-gap: 1.25em;
-}
-
-.legal {
-	display: flex;
-	flex-wrap: wrap;
-	color: #999;
-}
-
-.legal__links {
-	display: flex;
-	align-items: center;
-}
-
-.heart {
-	color: #2f2f2f;
-}
-
-@media screen and (min-width: 24.375em) {
-	.legal .legal__links {
-		margin-left: auto;
-	}
-}
-
-@media screen and (min-width: 40.375em) {
-	.footer__nav > * {
-		flex: 1;
-	}
-
-	.nav__item--extra {
-		flex-grow: 2;
-	}
-
-	.footer__addr {
-		flex: 1 0px;
-	}
-
-	.footer__nav {
-		flex: 2 0px;
-	}
-}
-.nav__item {
-	margin-left: 20%;
+#sixprinterheaderthingy {
+	padding-top: 0.8em;
 }

@@ -157,21 +157,23 @@ html {
 #firstbackgroundcolor {
 	background-color: beige;
 	height: 20vw;
-	transform: translateY(-5%);
 }
 
 #secondbackgroundcolor {
-	height: 9em;
+	height: 10em;
+	background-color: white;
+	transform: translateY(-5%);
 }
 
 
 
 .threedprinterheaderthingyy {
-	padding-left: 5%;
+	padding-left: 2.5%;
 	margin-top: 1em;
 	font-size: 2.5em;
 	font-family: DM Sans,sans-serif;
 	font-family: 100;
+	padding-bottom: 1em;
 }
 
 .thirdbackgroundcolor {
@@ -204,16 +206,15 @@ html {
 	font-family: Optima, sans-serif;
 	font-size: 1.25em;
 	color: lightgray;
+	padding-bottom: 3em;
 }
 
 #fourthbackgroundtexth1 {
 	padding-right: 5%;
 	font-family: DejaVu Sans Mono, monospace;
 	float: right; 
-	padding-bottom: 10em;
-	transform: translateY(10em);
-	right: -4%;
 	font-size: 5.25em;
+	
 }
 
 .thirdbackgroundcolortext {
@@ -224,7 +225,6 @@ html {
 .fifthbackgroundcolor {
 	background-color:darkolivegreen;
 	height: 50em;
-	transform: translateY(14em);
 }
 .fifthbackgroundcolor img {
 	float: left;
@@ -258,18 +258,18 @@ html {
 }
 
 #sixbackgroundcolor {
+	height: 15em;
 	background-color: white;
-	height: 9em;
 }
 
-.sixprinterheaderthingyy {
+.sixprinterheaderthingy {
+	font-family: DejaVu Sans Mono, monospace;
 	padding-left: 5%;
-	margin-top: 1em;
-	font-size: 2.5em;
-	font-family: DM Sans,sans-serif;
-	font-family: 100;
-	transform: translateY(6.3em);
-	margin-bottom: 6em;
+	position: absolute;
+	right: 5%;
+	margin-top: 0.6em;
+	font-size: 5em;
+	color: white;
 }
 
 .sevenbackgroundcolor {
@@ -302,6 +302,7 @@ html {
 	font-family: Optima, sans-serif;
 	font-size: 1.25em;
 	color: lightgray;
+	padding-bottom: 3em;
 }
 
 .sevenbackgroundcolortext {
@@ -357,9 +358,10 @@ body {
 	font-weight: 400;
 }
 
-.nav__title {
+.footernavtitle {
 	font-weight: 400;
 	font-size: 15px;
+	list-style-type: square;
 }
 
 .footer address {
@@ -409,12 +411,12 @@ body {
 	color: #999;
 }
 
-.nav__ul--extra {
+.moreullist {
 	column-count: 2;
 	column-gap: 1.25em;
 }
 
-.legal {
+.copyrightstuff {
 	display: flex;
 	flex-wrap: wrap;
 	color: #999;
@@ -440,7 +442,7 @@ body {
 		flex: 1;
 	}
 
-	.nav__item--extra {
+	.navmorestuff {
 		flex-grow: 2;
 	}
 
@@ -452,7 +454,7 @@ body {
 		flex: 2 0px;
 	}
 }
-.nav__item {
+.navstufff {
 	margin-left: 20%;
 }
 
