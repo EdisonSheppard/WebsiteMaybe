@@ -191,6 +191,7 @@ html::-webkit-scrollbar {
 	/*object-fit: cover;*/
 	object-position: 50% 15%;
 	height: 100%;
+	transform: translateY(-0.3em);
 }
 
 
@@ -341,4 +342,47 @@ body {
 
 #sixprinterheaderthingy {
 	padding-top: 0.8em;
+}
+.mainfooter {
+	height: 25em;
+	width: 100%;
+	background-color: lightblue;
+}
+
+.logodiv {
+	padding-top: 6em;
+	padding-left: 17.5%;
+	max-width: 100%;
+}
+
+.firstcolumn {
+	padding-left: 30%;
+	line-height: 2em;
+	max-width: fit-content;
+	position: relative;
+	bottom: 40%;
+}
+
+.fourthcolumn {
+	padding-left: 72%;
+	max-width: fit-content;
+	line-height: 2em;
+	position: relative;
+	bottom: 161%;
+}
+
+.thirdcolumn {
+	padding-left: 57%;
+	max-width: fit-content;
+	line-height: 2em;
+	position: relative;
+	bottom: 120%;
+}
+
+.secondcolumn {
+	padding-left: 44%;
+	line-height: 2em;
+	max-width: fit-content;
+	position: relative;
+	bottom: 80%;
 }
